@@ -1,21 +1,24 @@
 # cnode
 
-> A Vue.js project
+> 使用 vue.js 搭建的一个高仿 CNODE 社区
 
-## Build Setup
+### 项目基本介绍
+所有内容都是根据 CNODE 社区提供的 [API](https://cnodejs.org/api) 接口实现的。
 
-``` bash
-# install dependencies
-npm install
+主要部分为：
+  1. 列表的实现
+  2. 详情页：
+      - 文章详情页
+      - 侧边栏：用户个人信息侧边栏
+  3. 回复列表
+  4. 分页
 
-# serve with hot reload at localhost:8080
-npm run dev
+### 项目基本结构
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+**组件**：
+1. Header 头部
+2. PostList 列表
+3. Article 文章详情页
+4. SlideBar 侧边栏
+5. UserInfo 用户个人信息
+6. Pagination 分页组件
